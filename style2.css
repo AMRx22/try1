@@ -14,6 +14,86 @@ header{
 width: 100%;
 } 
 
+@media(max-width: 700px){
+    header .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    img {
+        width: 200px; /* تصغير حجم الشعار */
+    }
+
+    .hero-section .section-content {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero-section .hero-details h1 {
+        font-size: 40px; /* تصغير العنوان */
+        margin-bottom: 20px;
+    }
+
+    .hero-section .hero-details p {
+        font-size: 16px;
+    }
+
+    .hero-section .hero-image-wrapper {
+        margin: 0 auto;
+    }
+
+    .text-box {
+        padding: 50px 10px;
+        top: 30%;
+        transform: translate(-50%, -30%);
+    }
+
+    .text-box h2 {
+        font-size: 24px; /* تصغير حجم العناوين */
+    }
+
+    .text-box .buttons {
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 0; /* تعديل المحاذاة */
+    }
+
+    .corses .course-content {
+        flex-direction: column; /* عرض البطاقات بشكل عمودي */
+        margin: 10px;
+    }
+
+    .corses .course-content .card,
+    .corses .course-content .card2 {
+        width: 90%; /* توسيع العرض */
+        margin: 10px auto;
+    }
+
+    .procedure .procedure-content .card {
+        width: 90%; /* تصغير عرض البطاقات */
+        margin: 10px auto;
+    }
+
+    .contact .contact-form .form-input {
+        width: 100%; /* تعديل عرض المدخلات */
+    }
+
+    .about-section .about-image-wrapper .about-img {
+        width: 90%; /* تصغير حجم الصور */
+        margin: 0 auto;
+    }
+
+    .testimonial-section .testimonial {
+        padding: 20px;
+    }
+
+    .testimonial-section .testimonial .user-image {
+        width: 120px; /* تصغير حجم الصور */
+        height: 120px;
+    }
+}
+
 .header{
     min-height: 100vh;
     width: 100%;
