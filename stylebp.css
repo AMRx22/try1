@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+header{
+    background: #f7fcfc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+} 
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+header .navbar{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 350px;
+}
+
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1600px;
+}
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
+.navbar .nav-menu .nav_link{
+    color: #0c398f;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.navbar .nav-menu .nav_link:hover{
+    background: #0c398f;
+    color: #ffff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.video{
+        min-height: 90vh;
+        background: #0c398f;
+        padding-top: 2px;
+        padding-bottom: 2px;        
+    }
+.vtext{
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+.start-video{
+    position: relative;
+    text-align: center;
+}
+.method{
+    position: relative;
+    font-size: 20px;
+    color: #0c398f;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    min-height: 120vh;
+}
+
+.test{
+    width: calc(33% - 100px);
+    background: #d5dada;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    cursor: pointer; 
+    font-size: 25px;
+    transition: all 0.3s ease;
+    margin-left: 800px;
+}
+
+.test{
+    transition: all 0.3s ease;
+}
+
+.test:hover {
+    transform: scale(0.9);
+}
+
+.test:hover{
+    background: #ceb10c;
+}
